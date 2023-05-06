@@ -1,0 +1,26 @@
+.empty {
+    height: 150px;
+    padding-top: 100px;
+    text-align: center;
+    line-height: 2;
+    display: flex;
+    background: #F3F6FD;
+}
+
+.empty button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: #6E00FF;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.empty h2 {
+    margin-top: -50px;
+    margin-left: 100px;
+}

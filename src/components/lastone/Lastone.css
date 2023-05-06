@@ -1,0 +1,56 @@
+.lastone {
+    width: 100%;
+    height: 340px;
+    background-color: #F4F7FD;
+}
+
+.lastone1 {
+    background: #008DFF;
+    height: 260px;
+    display: flex;
+    width: 100%;
+}
+
+.lastore {
+    padding: 3% 3%;
+    color: #fff;
+    margin-left: 70px;
+    width: 50%;
+}
+
+.lastore h4 {
+    margin-top: 30px;
+}
+
+.lastone_btn {
+    margin-left: 15px;
+    margin-top: 25px;
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: none;
+}
+
+.lastone_btun {
+    margin-top: 25px;
+    width: 120px;
+    height: 30px;
+    background: none;
+    border: none;
+}
+
+.lastone_btn img {
+    width: 100%;
+    height: 100%;
+}
+
+.lastoneko {
+    width: 50%;
+    height: 100%;
+}
+
+.lastoneko img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

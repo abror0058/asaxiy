@@ -1,0 +1,57 @@
+.login {
+    width: 100%;
+    height: 88vh;
+    background: #F3F6FD;
+}
+
+.logsign {
+    display: flex;
+    width: 70%;
+    height: 66%;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.login2 {
+    width: 60%;
+    background: rgb(245, 243, 243);
+    margin-left: 100px;
+}
+
+
+.login21 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.login21__info {
+    margin-left: 30px;
+}
+
+.login1 {
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.login1 input {
+    margin-top: 40px;
+    width: 85%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-indent: 15px;
+}
+
+.login1 button {
+    margin-top: 40px;
+    width: 85%;
+    height: 40px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

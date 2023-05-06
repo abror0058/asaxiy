@@ -1,0 +1,65 @@
+.footer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding: 2% 5%;
+    gap: 100px;
+}
+
+.foot1 p {
+    margin-top: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.foot1 h3 {
+    margin-top: 15px;
+}
+
+.foot1 p:hover {
+    color: blue;
+}
+
+.foot2 p {
+    margin-top: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.foot2 h3 {
+    margin-top: 15px;
+}
+
+.foot2 p:hover {
+    color: blue;
+}
+
+.foot3 p {
+    margin-top: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.foot3 h3 {
+    margin-top: 15px;
+}
+
+.foot3 p:hover {
+    color: blue;
+}
+
+.foot__icons {
+    display: flex;
+    gap: 20px;
+}
+
+.foot__icons svg {
+    font-size: 28px;
+    color: gray;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.foot__icons svg:hover {
+    color: blue;
+}

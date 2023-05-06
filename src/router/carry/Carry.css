@@ -1,0 +1,93 @@
+.carry {
+    width: 100%;
+    min-height: 600px;
+    margin-top: 3px;
+    background: #E8EBF4;
+}
+
+.trek {
+    width: 97%;
+    margin-left: 20px;
+    height: 565px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+}
+
+.trek__info {
+    width: 40%;
+    padding: 4% 2%;
+}
+
+.trek__img {
+    width: 50%;
+
+}
+
+.trek__img img {
+    width: 100%;
+
+}
+
+.trek__info h4 {
+    margin-top: 30px;
+    color: gray;
+}
+
+.trek__info h5 {
+    margin-top: 35px;
+}
+
+.trek__info input {
+    width: 87%;
+    height: 40px;
+    margin-top: 6px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 18px;
+    text-indent: 12px;
+}
+
+.chekk {
+    display: flex;
+    width: 240px;
+    height: 75px;
+    background: rgb(249, 249, 249);
+    margin-top: 30px;
+}
+
+.chekk input {
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.chekk h4 {
+    width: 100%;
+}
+
+.trek__info button {
+    margin-top: 30px;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.trek__img {
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 750px) {
+    .trek__img {
+        display: none;
+    }
+
+    .trek__info {
+        width: 100%;
+    }
+}

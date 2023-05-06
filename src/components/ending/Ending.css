@@ -1,0 +1,38 @@
+.ending {
+    width: 100%;
+    height: 320px;
+    background: #008DFF;
+
+}
+
+.end {
+    width: 100%;
+    height: 240px;
+    background: #fff;
+    margin-top: 50px;
+    display: flex;
+}
+
+
+.ending21 {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.ending21__info {
+    margin-left: 30px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width:760px) {
+    .ending21:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .ending {
+        display: none;
+    }
+}
