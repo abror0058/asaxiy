@@ -26,6 +26,7 @@ function Footer() {
                 <p>address:​Islom Karimov, 49, Toshkent</p>
             </div>
             <div className="foot3">
+
                 <h3>Erishgan yutuqlarimiz</h3>
                 <p>Tahsin" mukofoti</p>
                 <p> "Kelajak bunyodkori" medali</p>

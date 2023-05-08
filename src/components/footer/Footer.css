@@ -63,3 +63,25 @@
 .foot__icons svg:hover {
     color: blue;
 }
+
+@media screen and (max-width:625px) {
+    .foot1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .footer {
+        gap: 0;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .foot2 {
+        display: none;
+    }
+
+    .footer {
+        height: 300px;
+    }
+}

@@ -16,7 +16,6 @@ function CartWrapper({ cart }) {
 
   // controlled form | component
   const [name, setName] = useState("")
-  // uncontrolled form | component
   const tel = useRef()
   const address = useRef()
 
@@ -48,6 +47,7 @@ function CartWrapper({ cart }) {
       dispatch(deleteAllCart())
     }, 3000)
   }
+  console.log(cart[0])
   return (
     <div className="cart">
       {

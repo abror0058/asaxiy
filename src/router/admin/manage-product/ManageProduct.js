@@ -21,7 +21,7 @@ function ManageProduct() {
   return (
     <div>
       <h2>ManageProduct</h2>
-      <Products setRefresh={setRefresh} admin={true} data={data} />
+      <Products setRefresh={setRefresh} admin={true} data={data} like={false} />
     </div>
   )
 }

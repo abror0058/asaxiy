@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { addToHeart, addToCard, removeFromHeart } from "../../context/action/action"
 import { db } from "../../server/index"
 import { deleteDoc, doc } from "firebase/firestore"
+import { BsCartFill } from 'react-icons/bs'
 
 
 function Product({ data, admin, setRefresh, like }) {
@@ -30,10 +31,10 @@ function Product({ data, admin, setRefresh, like }) {
                             <img src={item.url} alt="" />
                         </Link>
                         {
-                            like
+                            heart
                                 ?
                                 heart?.some(i => i.id === item.id) ?
-                                    <AiFillHeart onClick={() => dispatch(removeFromHeart(item))} />
+                                    <AiFillHeart className='like__btn' onClick={() => dispatch(removeFromHeart(item))} />
                                     :
                                     <AiOutlineHeart onClick={() => dispatch(addToHeart(item))} />
                                 :
@@ -52,21 +53,22 @@ function Product({ data, admin, setRefresh, like }) {
                             {
                                 admin
                                     ?
-                                    <AiOutlineDelete className='pro__img4' onClick={() => handleDelete(item.id)} />
+                                    <AiOutlineDelete className='pro__card-shopping' onClick={() => handleDelete(item.id)} />
                                     :
-                                    <AiOutlineShoppingCart className='pro__img4' onClick={() => {
-                                    }} />
+                                    <button className='pro__card-shopping' onClick={() => dispatch(addToCard())} >
+                                        <BsCartFill />
+                                    </button>
                             }
                         </div>
-                        <button className='btn11'>Rassrochka</button>
-                        <button className='btn12'>Bir klikda olish</button>
+                        <div className="pro__btn">
+
+                            <button className='btn11'>Rassrochka</button>
+                            <button className='btn12'>Bir klikda olish</button>
+                        </div>
                     </div>
 
                 </div>)
             }
-            < br />
-            < br />
-
         </div>
 
     )

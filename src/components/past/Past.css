@@ -59,16 +59,13 @@
 
 }
 
-@media screen and (max-width:1000px) {
-    .past__out h5 {
-        margin-top: 10px;
-    }
+@media screen and (max-width:500px) {
 
     .past {
-        padding: 0 0;
+        padding: 0 3%;
     }
 
-    .past__out h1 {
-        margin-top: 0px;
+    .past__out p {
+        font-size: 12px;
     }
 }
